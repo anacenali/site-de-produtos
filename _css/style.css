@@ -1,0 +1,56 @@
+nav#menu{
+    display: block;
+}
+nav#menu ul{
+    text-transform: uppercase;
+    list-style: none; 
+    position: absolute;   
+   left: 800px;
+    top: 20px;
+}
+nav#menu li{
+    display: inline-block;
+    background-color:rgb(253, 248, 252);  
+    padding: 15px;
+
+}
+
+
+body{
+    background-color: rgb(201, 126, 184); 
+   margin: 0px;
+}
+header{
+    background-color: rgb(201, 126, 184);
+    padding-top: 90px;
+    padding-bottom: 5px;
+    position: relative;
+}
+ img{
+    width: 20%;
+    position: relative;
+ }
+ nav#menu a :link{
+    text-decoration: none;
+    color: black;
+    font-family: verdana;
+    font-weight: bold;
+    transition: all 0.8s ease;
+ }
+  nav#menu a :visited{
+   color: black;
+
+}
+nav#menu a :hover{
+   color: rgb(197, 123, 180);
+}
+ h6{
+    background-color: black;
+ }
+ h1{
+    padding-left: 600px;
+ }
+ h5{
+    background-color: rgb(48, 0, 37);
+ }
+  
